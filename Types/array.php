@@ -31,6 +31,11 @@
     );
 
     echo $array['multi']['dimensional']['array'];
+
+    $arr['key'] = 'value';
+    $arr[] = 'value';
+// key may be an int or string
+// value may be any value of any type
     ?>
 </body>
 </html>
