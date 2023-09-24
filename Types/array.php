@@ -19,6 +19,18 @@
         echo $value."<br/>";
     }
     
+    //Example #7 Accessing array elements
+    $array = array(
+        "foo" => "bar",
+        42    => 24,
+        "multi" => array(
+             "dimensional" => array(
+                 "array" => "foo"
+             )
+        )
+    );
+
+    echo $array['multi']['dimensional']['array'];
     ?>
 </body>
 </html>
