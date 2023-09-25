@@ -34,8 +34,15 @@
 
     $arr['key'] = 'value';
     $arr[] = 'value';
-// key may be an int or string
-// value may be any value of any type
+    // key may be an int or string
+    // value may be any value of any type
+
+    //Array destructuring ¶
+    $source_array = ['foo', 'bar', 'baz'];
+    [$a, $b, $c] = $source_array;
+    echo $a;
+    echo $b;
+    echo $c;
     ?>
 </body>
 </html>
